@@ -11,9 +11,17 @@
 .list{
     list-style: none;
 }
+.container{
+width: 1270px;
+padding-left: 15px;
+padding-right: 15px;
+margin: auto;
+}
 .body{
     font-family: 'Roboto';
     background-color:var(--bg-color-white);
+    margin: 0;
+    padding: 0;
 }
 
 /* logo */
@@ -75,9 +83,14 @@ line-height:1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
+.auch-nav{
+    padding: 0;
+    margin: 0;
+}
 /* Header */
 .header{
-    background-color: var(--bg-color)
+    background-color: var(--bg-color);
+    background-color:#ccc
 }
 
 /* Hero */
@@ -87,7 +100,9 @@ background-color:var(--bg-color-black);
     
 }
 .hero .title{
-    color: var(--bg-color-white);   
+margin-top: 0;
+margin-bottom: 0;
+color: var(--bg-color-white);   
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -98,6 +113,10 @@ letter-spacing: 0.06em;
 
 /* Button */
 .button{
+display: inline-block;
+min-width: 200px;
+padding: 10px 32px;
+border-radius: 4px;
 color: var(--bg-color-white);
 background-color: var(--accent-color); 
 font-weight: 700;
@@ -106,8 +125,9 @@ line-height:1.88;
 text-align: center;
 letter-spacing: 0.06em;
 text-decoration: none;
-
 margin-right: auto; 
+margin-top: 40px;
+
 }
     .button .title:hover,
     .button .title:focus{
@@ -125,24 +145,40 @@ margin-right: auto;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    border-radius: 4px;
+    padding: 9px 20px;
+    min-width:38px;
+    border: transparent;
 }
 /* advantage */
 .advantage-link .title{
-    color: var(--primary-text-color);
+color: var(--primary-text-color);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 10px;
+margin-top: 0;
+
+
 }
 .advantage-link .paragraph{
-    color: var(--second-text-color);
+color: var(--second-text-color);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+margin: 0;
+padding: 0;
 
 
+
+}
+.advantage-link{
+    background-color: tomato;
+    margin: 0;
+padding: 0;
 }
 /* Work */
 .section-title .link{  
@@ -151,7 +187,22 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 0;
+margin-bottom: 50px;
+background-color: tomato;
 }
+.img{
+    background-color:tomato;
+}
+.section-title .img{
+    background-color: tomato;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 /* Team */
 
 .employee-link .title{
@@ -160,9 +211,13 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+margin-top: 30px;
+margin-bottom: 10px;
 }
 .employee-link .paragraph{
     color: var(--second-text-color);
+    margin: 0;
+    padding: 0;
 }
 .section-title .title{
 color: var(--primary-text-color);    
@@ -174,31 +229,39 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
 }
 .address{
     color: var(--bg-color-white);
-    
+    margin-bottom: 9px;
+    margin-top: 19px;
 }
 .address-link{
     color:rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-bottom: 9px;
+    margin-top: 9px;
 }
 /* Portfolio.html */
 .heading .description{
-    color: var(--primary-text-color)
-font-weight: 700;
-font-size: 18px;
+color: var(--primary-text-color);
+font-weight:700;
+font-size:18px;
 line-height: 2;
 letter-spacing: 0.06em;
+margin-bottom: 4px;
+margin-top: 20px;
+
 
 }
+
 .heading .title{
 color: var(--second-text-color);
-font-weight: 400;
+font-weight: 400px;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
+margin: 0;
+padding: 0;
 }
 
 /* test */
