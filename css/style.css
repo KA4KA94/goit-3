@@ -40,6 +40,7 @@ margin: auto;
     line-height:1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-right: 90px;
 }
 .footer .logo-primary{
     color: var(--accent-color)
@@ -60,8 +61,8 @@ margin: auto;
 /* site-nav */
 .site-nav .link{
     color: var(--primary-text-color);
-    padding-top:30px;
-    padding-bottom:30px ;
+    padding-top:0px;
+    padding-bottom:0px ;
     display: block;
 }
 .site-nav .link:hover,
@@ -75,18 +76,20 @@ margin: auto;
     display: flex;
     padding:0;
 }
-.site-nav .item{
-    
-
-}
 .site-nav .item + .item {
 margin-left: 50px;
+}
+.site-nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
 }
 /* auch-nav */
 
 
 .auch-nav .link{
 color: var(--primary-text-color);
+
 }
 .auch-nav .link:hover,
 .auch-nav .link:focus{
@@ -104,9 +107,9 @@ text-decoration: none;
     margin-left: 50px;
 }  
 .auch-nav {
-    display: flex;
     padding: 0;
-    margin: 0;
+    margin-left: 326px;
+
 }
 /* Header */
 .header{
@@ -115,6 +118,7 @@ text-decoration: none;
 }
 .main-nav{
     display: flex;
+    align-items: center;
 }
 
 /* Hero */
